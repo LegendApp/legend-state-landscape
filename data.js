@@ -24,11 +24,27 @@ export const data = LandscapeSchema.make({
     Topology: { data: "Client-Server" },
   },
   ServerSideData: {
-    PersistenceMechanism: { data: ["N/A"] },
-    DataSize: { data: "N/A" },
-    DataModelParadigm: { data: "N/A" },
-    SchemaManagement: { data: ["N/A"] },
-    ExistingDatabaseSupport: { data: "N/A" },
+    PersistenceMechanism: {
+      data: ["Depends on your backend"],
+      comment: "Legend State works with any type of database.",
+    },
+    DataSize: {
+      data: "Depends on your backend",
+      comment:
+        "Legend State is purely client side, so it can work with any size of data.",
+    },
+    DataModelParadigm: {
+      data: "Depends on your backend",
+      comment: "Legend State can work any structure of data.",
+    },
+    SchemaManagement: {
+      data: ["Depends on your backend"],
+      comment: "Legend State can use the types from your backend.",
+    },
+    ExistingDatabaseSupport: {
+      data: "Designed to work with existing database and arbitrary schemas.",
+      comment: "Legend State works with any type of database.",
+    },
   },
   ClientSideData: {
     QueryAPI: { data: ["Signals-based Reactivity"] },
