@@ -1,6 +1,6 @@
 # Legend State
 
-Legend-State is a super fast all-in-one state and sync library that lets you write less code to make faster apps. Legend-State has four primary goals:
+Legend-State is a super fast all-in-one state and sync library that lets you write less code to make faster apps.
 
 ## Features
 
@@ -10,6 +10,10 @@ Legend-State is a super fast all-in-one state and sync library that lets you wri
 - **Open-source**: The code is available for anyone to use and contribute to.
 - **Community-driven**: Join our community and help us improve the project.
 
+## Works with any backend
+
+Legend State currently has plugins for popular backends: [Keel](https://keel.so/developers), [Supabase](https://www.supabase.com/), and [Firebase](https://firebase.google.com/). It also has plugins to hook up your own backend using [TanStack Query](https://tanstack.com/query/) or you can easily build your own [custom sync plugin](https://www.legendapp.com/open-source/state/v3/sync/crud/).
+
 ## More info
 
-See [https://www.legendstate.com](https://www.legendstate.com) and [https://github.com/legendapp/legend-state](https://github.com/legendapp/legend-state) for more details.
+See [https://www.legendapp.com/open-source/state/v3/](https://www.legendapp.com/open-source/state/v3/) and [https://github.com/legendapp/legend-state](https://github.com/legendapp/legend-state) for more details.
